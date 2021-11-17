@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: 40px;
+}
+   
+
+body {
+    background: url('https://images.unsplash.com/photo-1535992165812-68d1861aa71e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=690&q=80');
+    background-size: 25%;
+}
+
+header {
+    /* background: rgba(255,255,255, .5); */
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 20px;
+    align-items: center;
+   
+}
+
+#container-one {
+    /* background: rgba(255,255,255, .5);  */
+    width: 50%;
+    color: white;
+    margin-right: 100px;
+    border-radius: 10px;
+    
+
+}
+
+h2 {
+    font-size: 5rem;
+  
+}
+
+#buy-now {
+    background-color: rgba(255, 0, 128, 0.85);
+    width: 250px;
+    height: 75px;
+    border: solid 3px white;
+    border-radius: 15%;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+}
+
